@@ -657,7 +657,7 @@ footer {
         border-radius: 30% 65% 70% 30% / 30% 35% 70% 70%;
         z-index: -1;
         top: -20px;
-        right: 40px;
+        right: -20px;
         animation: morphShape 10s ease-in-out infinite;
     }
     .portfolio-img {

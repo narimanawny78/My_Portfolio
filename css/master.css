@@ -650,11 +650,23 @@ footer {
         margin-left: 30px;
     }
     .image-shape {
+        position: absolute;
         width: 85%;
         height: 85%;
+        background-color: var(--main-color);
+        border-radius: 30% 65% 70% 30% / 30% 35% 70% 70%;
+        z-index: -1;
+        top: -20px;
+        right: 40px;
+        animation: morphShape 10s ease-in-out infinite;
     }
     .portfolio-img {
         width: 90%;
+        height: auto;
+        border-radius: 20px;
+        position: relative;
+        z-index: 1;
+        transition: transform 0.5s;
     }
     .project-content {
         display: flex;
